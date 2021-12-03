@@ -19,6 +19,9 @@ public void draw(){
     if(key == 'a'){
     bob.turn(-10);
     }
+    if (key == 'd'){
+     bob.turn(10);
+    }
      if(key == ' '){
     bob.accelerate(0.5);
   }
