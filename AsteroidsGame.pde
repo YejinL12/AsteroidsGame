@@ -40,7 +40,7 @@ public void draw(){
   for(int j = 0; j<joe.size(); j++){
     joe.get(j).move();
     joe.get(j).show();
-    if(dist((float)bob.getX(), (float)bob.getY(), (float)joe.get(j).getX(), (float)joe.get(j).getY()) < 30)
+    if(dist(bob.getX(), bob.getY(), joe.get(j).getX(), joe.get(j).getY()) < 30)
       joe.remove(j); 
       
   }
